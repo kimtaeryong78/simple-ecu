@@ -1,21 +1,28 @@
 # SimpleECU
+A practice project to simulate the architecture of an automotive electronic control unit (ECU) using C++.
 
-C++を利用し、 ECU勉強用 simulator練習
+The goal of this project is to learn modern C++ while designing software using development practices similar to the production seen in the automotive industry.
 
-## 目標
+---
 
-以下を使って見る。
+## Features
 
-- Modern C++
+- Modern C++20
+- Modular ECU Architecture
+- CMake Build System
+- Unit Testing with GoogleTest
+- Static Analysis
+- Continuous Integration
+- Documentation with Doxygen
 
-- Test Driven Development
+---
 
-- CMake
+## Project Goals
 
-- GoogleTest
+- Learn Modern C++
+- Practice software architecture
+- Apply Test Driven Development (TDD)
+- Write production-quality code
+- Build an automotive software portfolio
 
-- Embedded Architecture
-
-- CAN Simulation
-
-- Clean Architecture
+---
