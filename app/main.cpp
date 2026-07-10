@@ -1,6 +1,8 @@
-#include <iostream>
+#include "simple_ecu/logger.hpp"
 
 int main() {
-    std::cout << "Hello, SimpleECU!" << std::endl;
+    simple_ecu::Logger::Info("Hello, SimpleECU!");
+    simple_ecu::Logger::Warn("This is a warning message.");
+    simple_ecu::Logger::Error("This is an error message.");
     return 0;
 }
